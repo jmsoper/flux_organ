@@ -19,7 +19,7 @@ var Organ = React.createClass({
 
 		return (
 
-			<ul>
+			<ul className="group">
 				{
 					keyArray.map(function(el, index) {
 						return <li key={index}><Key note={el} /></li>;

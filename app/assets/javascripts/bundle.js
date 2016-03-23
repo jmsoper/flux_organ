@@ -26697,7 +26697,7 @@
 	
 			return React.createElement(
 				'ul',
-				null,
+				{ className: 'group' },
 				keyArray.map(function (el, index) {
 					return React.createElement(
 						'li',
